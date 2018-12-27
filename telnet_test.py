@@ -57,7 +57,6 @@ def func_list_process(original_list):
 
     temp_list = list(set(temp_list))
     temp_list.sort()
-    print(temp_list)
     return temp_list
 
 def func_telnet_test_cli(Destination_IP, Destination_Port):
