@@ -19,7 +19,6 @@ def func_display_local_time(utc_dt):
 
 def func_generate_filename(filename, filetype):
     #generate filename based on the given prefix and the timestamp
-    
     now = datetime.now()
     now = now.strftime('%Y%m%d_%H%M%S%Z')
 
