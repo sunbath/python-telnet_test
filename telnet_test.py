@@ -238,8 +238,8 @@ def main():
         {"Destination IP": "192.168.11.21", "Destination TCP Port": ["19-19","20-24","21:23","139","139"]}
     ]
     
-    #func_export_to_cli(Test_List)
-    func_export_to_textfile(Test_List,func_generate_filename("txtfilename","text"))
+    func_export_to_cli(Test_List)
+    #func_export_to_textfile(Test_List,func_generate_filename("txtfilename","text"))
     #func_export_to_csvfile(Test_List, func_generate_filename("csvfilename","csv"))
 
 if __name__ == '__main__':
