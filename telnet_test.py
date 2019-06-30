@@ -8,7 +8,7 @@ from datetime import datetime,timezone
 from tabulate import tabulate
 
 def func_clear_screen():
-    # Clear the screen now
+    # Clear the screen
     subprocess.call('clear', shell=True)
 
 def func_convert_utc_to_local(utc_dt):
